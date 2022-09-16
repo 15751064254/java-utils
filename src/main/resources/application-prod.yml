@@ -1,0 +1,12 @@
+bsapp:
+  url: 127.0.0.1:18081/
+  cookie: JSESSIONID=38C0657D1F399DEC926015AC88C5A155; COOKIE_UUID=714269444183624338933; COOKIE_USERID_FG="8a9wRHLcDXw=_1585640594401"
+
+local:
+  file:
+    path: /tmp/iscsi/test/
+
+# 配置日志级别，方别调试
+logging:
+  level:
+    com.example.demo: debug
