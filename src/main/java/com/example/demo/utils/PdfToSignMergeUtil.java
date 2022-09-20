@@ -45,6 +45,11 @@ public class PdfToSignMergeUtil {
     public static final String STATEMENT_TEMPLATE_PATH = "pdf\\02_投保声明与授权书.pdf";
 
     /**
+     * 签名
+     */
+    public static final String SIGN_IMG_PATH = "pdf\\\\HXJDT000000000026805_S101_1_64556.gif";
+
+    /**
      * 将参数保存并且导出新的pdf
      *
      * @param objectMap  需要保存的参数
@@ -186,7 +191,7 @@ public class PdfToSignMergeUtil {
         textMap.put("agentPhone", "13387808900");
 
         Map<String, String> mapImage = new HashMap();
-        mapImage.put("tbSignName", "pdf\\HXJDT000000000026805_S101_1_64556.gif");
+        mapImage.put("tbSignName", SIGN_IMG_PATH);
 
         Map<String, Object> objectMap = new HashMap();
         objectMap.put("objectMap", textMap);
