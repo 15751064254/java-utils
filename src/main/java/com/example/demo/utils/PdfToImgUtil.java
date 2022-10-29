@@ -175,10 +175,11 @@ public class PdfToImgUtil {
 
     public static void main(String[] args) throws IOException {
 //        pdf2Image("C:\\jdt_attach\\dev\\HXDEV000000000021582\\HXDEV000000000021582_211003_0_07101_.pdf", "C:\\jdt_attach\\dev\\HXDEV000000000021582\\1.gif", 200);
-        Map<Integer, String> imgFilePathMap = new HashMap<>();
-        imgFilePathMap.put(0, "pdf\\1.gif");
-        imgFilePathMap.put(1, "pdf\\2.gif");
-        PdfToImgUtil.pdf2Image("pdf\\1.pdf", imgFilePathMap, 200);
 //        pdf2Image("pdf文件地址\\XX.pdf", "转换后图片地址\\XX.png", 200);
+        Map<Integer, String> imgFilePathMap = new HashMap<>();
+        imgFilePathMap.put(0, "C:\\work\\hexiehealth\\demo\\pdf\\1.gif");
+        imgFilePathMap.put(1, "C:\\work\\hexiehealth\\demo\\pdf\\2.gif");
+        PdfToImgUtil.pdf2Image("C:\\work\\hexiehealth\\demo\\pdf\\1.pdf", imgFilePathMap, 200);
+
     }
 }
